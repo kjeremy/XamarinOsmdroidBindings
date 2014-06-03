@@ -1,0 +1,11 @@
+<metadata>
+  <!-- fixup the namespaces, notice that we have to do one for each namespace. -->
+  <attr path="/api/package[@name='org.osmdroid.mapsforge.wrapper']" name="managedName">OsmDroid.MapsForge.Wrapper</attr>
+  <attr path="/api/package[@name='org.osmdroid.tileprovider.tilesource.bing']" name="managedName">OsmDroid.TileProvider.TileSource.Bing</attr>
+  <attr path="/api/package[@name='org.osmdroid.tileprovider.tilesource.bing.imagerymetadata']" name="managedName">OsmDroid.TileProvider.TileSource.Bing.ImageryMetaData</attr>
+  
+  <remove-node path="/api/package[@name='org.osmdroid.mapsforge.wrapper']/class[@name='MapView']" />
+  <remove-node path="/api/package[@name='org.osmdroid.mapsforge.wrapper']/class[@name='MapController']" />
+  <remove-node path="/api/package[@name='org.osmdroid.mapsforge.wrapper']/class[@name='Projection']" />
+  <remove-node path="/api/package[@name='org.osmdroid.mapsforge.wrapper']/class[@name='GeoPoint']" />
+</metadata>
